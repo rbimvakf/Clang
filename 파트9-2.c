@@ -8,7 +8,7 @@ int main()
 	double* pf = &f;
 	printf("%d, %f\n", n, f);
 	printf("%d, %f\n", *pn, *pf);
-	printf("%f\n", ((float)n+f));
+	printf("%f\n", (float)n+f);
 	/*
 	* 11, 3.140000
 	* 11, 3.140000
