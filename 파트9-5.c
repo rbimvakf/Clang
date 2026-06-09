@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
 	int i, sum = 0;
 	int n[8] = { 100, 200, 300, 400, 500, 600, 700, 800 };
 	double mean;
