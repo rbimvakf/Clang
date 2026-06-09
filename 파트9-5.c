@@ -10,6 +10,6 @@ int main()
 	for (i = 0; i < 8; i++)
 		sum += *(ptr + i);
 	mean = (float)sum / 8.0;
-	printf("%d %f", sum, mean); // 360, 450.000000
+	printf("%d, %f", sum, mean); // 360, 450.000000
 	return 0;
 }
