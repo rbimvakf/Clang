@@ -8,6 +8,7 @@ float* co(float (*)[N], float (*)[N] , int);
 float* adj_f(float (*)[N], float (*)[N], int);
 float   det(float (*)[N], float (*)[N], int);
 float   det(float (*a)[N], float (*c)[N], int d)
+
 {
 	float deter = 0;
 	int j;
@@ -57,11 +58,7 @@ float* co(float (*a)[N], float (*c)[N], int d)
 						if (l < d - 1)
 							l++;
 						if (l >= d - 1)
-						{
 							k++; l = 0;
-
-						}
-						
 					}
 				}
 			}
@@ -79,7 +76,7 @@ float* input_nBy1(float *y , int d, char* s)
 	for (j = 0; j < d; j++)
 	{
 		printf("%d행(열)의 %s \n",j, s);
-	scanf_s("%f", &y[j]);
+		scanf_s("%f", &y[j]);
 	}
 	return y;
 }
@@ -120,7 +117,8 @@ float* input_nByn(float (*a)[N], int d, char *s)
 }
 
 int main()
-{	float a_[N][N];//A상태값
+{
+	float a_[N][N];//A상태값
 	float (*a)[N]=a_; //배열 포인터
 	float y_[N];//Y결과값
 	float *y = y_; //포인터
