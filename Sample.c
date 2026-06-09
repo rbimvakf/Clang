@@ -69,11 +69,9 @@ float* co(float (*a)[N], float (*c)[N], int d)
 			//print_nByn(c_, d-1, s);
 			c[i][j] = sign * (c_[0][0] * c_[1][1] - c_[0][1] * c_[1][0]);
 		}
-		
 	}
 	return c;
 }
-
 
 float* input_nBy1(float *y , int d, char* s)
 {
