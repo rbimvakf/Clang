@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define N 10
+#define N 11
 
 int main() {
 	char a[N] = "C-LANGUAGE";
