@@ -1,5 +1,6 @@
 #include <stdio.h>//#include <stdlib.h>
 #define N 10
+
 float* input_nByn(float (*)[N], int , char *);
 void print_nBy1(float*, int, char*);
 float* input_nBy1(float*, int, char*);
@@ -7,8 +8,8 @@ void print_nByn(float (*)[N], int, char *);
 float* co(float (*)[N], float (*)[N] , int);
 float* adj_f(float (*)[N], float (*)[N], int);
 float   det(float (*)[N], float (*)[N], int);
-float   det(float (*a)[N], float (*c)[N], int d)
 
+float   det(float (*a)[N], float (*c)[N], int d)
 {
 	float deter = 0;
 	int j;
