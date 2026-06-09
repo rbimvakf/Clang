@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-func(int a[6], int b[2][3]){
+func(int a[6], int b[2][3]) {
 	for (int i = 0; i < 6; i++) 
 		printf("%d ", a[i]);
 	printf("\n");
