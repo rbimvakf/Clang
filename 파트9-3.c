@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main() 
-{
+int main() {
 	int a; float b; char c;
 	int* ip = &a;
 	float* fp = &b;
