@@ -9,15 +9,14 @@ int main() {
 	for (j = 0; j < SIZE; j++) 
 		printf("%d, ", x[j]);
 	printf("\n");
-	for (iteration = 1; iteration < SIZE; iteration++) {
-		for (i = 0; i < SIZE - 1; i++) {
+	for (iteration = 1; iteration < SIZE; iteration++) 
+		for (i = 0; i < SIZE - 1; i++) 
 			if (x[i] < x[i + 1]) {
 				temp = x[i];
 				x[i] = x[i + 1];
 				x[i + 1] = temp;
 			}
-		}
-	}
+
 	printf("결과값 : ");
 	for (j = 0; j < SIZE; j++)
 		printf("%d, ", x[j]);
