@@ -7,7 +7,7 @@ int main()
 	float* fp = &b;
 	char* cp = &c;
 	printf("%p, %p, %p\n", ip, fp, cp);
-	printf("%p, %p, %p\n", ip+2, fp+2, cp+2);
+	printf("%p, %p, %p", ip+2, fp+2, cp+2);
 	/*
 	* 1000, 1001, 1002
 	* 1008, 1009, 1004
