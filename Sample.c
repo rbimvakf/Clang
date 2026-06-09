@@ -58,8 +58,9 @@ float* co(float (*a)[N], float (*c)[N], int d)
 						c_[k][l] = a[m][n];
 						if (l < d - 1)
 							l++;
-						if (l >= d - 1)
+						if (l >= d - 1){
 							k++; l = 0;
+						}
 					}
 				}
 			}
