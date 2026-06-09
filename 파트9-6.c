@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main() 
-{
+int main() {
 	char* cp = "C is a computer programming language.";
 	printf("%s\n", cp);
 	printf("%c\n", *(cp+7));
