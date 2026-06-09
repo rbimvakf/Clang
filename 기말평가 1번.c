@@ -16,4 +16,5 @@ int main() {
 		else
 			printf("가장 큰 수 : %d\n", c);
 	}
+	return 0;
 }
