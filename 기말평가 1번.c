@@ -11,7 +11,7 @@ int main() {
 			printf("가장 큰 수 : %d\n", c);
 	}
 	else {
-		if (b>c)
+		if (b > c)
 			printf("가장 큰 수 : %d\n", b);
 		else
 			printf("가장 큰 수 : %d\n", c);
