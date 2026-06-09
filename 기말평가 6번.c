@@ -6,8 +6,8 @@ int main() {
 	int iteration;
 	int x[SIZE] = { 89, 95, 47, 33, 58, 73, 44, 86, 29, 52 };
 	printf("원래의 데이터 : ");
-	for (int i = 0; i < SIZE; i++)
-		printf("%d, ", x[i]);
+	for (j = 0; j < SIZE; j++) 
+		printf("%d, ", x[j]);
 	printf("\n");
 	for (iteration = 1; iteration < SIZE; iteration++) {
 		for (i = 0; i < SIZE - 1; i++) {
@@ -19,7 +19,7 @@ int main() {
 		}
 	}
 	printf("결과값 : ");
-	for (int i = 0; i < SIZE; i++)
-		printf("%d, ", x[i]);
+	for (j = 0; j < SIZE; j++)
+		printf("%d, ", x[j]);
 	return 0;
 }
