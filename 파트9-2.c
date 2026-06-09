@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main() 
-{
+int main() {
 	int n = 11;
 	double f = 3.14;
 	int* pn = &n;
