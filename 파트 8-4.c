@@ -14,4 +14,5 @@ int main() {
 	for (int i = 0; i < N - 1; i++) 
 		printf("%d, ", a[i]);
 	printf("%d", a[N - 1]);
+	return 0;
 }
