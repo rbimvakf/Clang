@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 func(char a, int b, double c, char *d) {
-	printf("%c %d %f %s", a, b, c, d);
+	printf("%c %d %.3f %s", a, b, c, d);
 }
 
 int main() {
