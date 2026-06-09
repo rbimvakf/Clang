@@ -2,12 +2,12 @@
 
 int main() 
 {
-	char* cp = "C is a computer grogramming language.";
+	char* cp = "C is a computer programming language.";
 	printf("%s\n", cp);
 	printf("%c\n", *(cp+7));
 	printf("%c\n", cp[10]);
 	/*
-	* C is a computer grogramming language.
+	* C is a computer programming language.
 	* c
 	* p
 	*/
