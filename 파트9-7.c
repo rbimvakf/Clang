@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main() 
-{
+int main() {
 	int n;
 	char* str[5] = { 
 		"mouse",
