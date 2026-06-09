@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-func(char a, int b, double c, char *d) {
+func(char a, int b, double c, char* d) {
 	printf("%c %d %.3f %s", a, b, c, d);
 }
 
